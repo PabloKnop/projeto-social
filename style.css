@@ -21,10 +21,34 @@ main{
 }
 
 #iphone{
+    background: url(imagens/frame-iphone.png);
     position: absolute;
- 
+    width: 311px;
+    height: 627px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#iphone > img{ 
+        padding-top:6px;
+        padding-left: px;
+        position: relative;
+        width: 267px;
+        height: 472px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding-left: 0.5px;
+        border-radius: 2px;
 }
 
 #redes{
     position: absolute;
+}
+
+section > a >img{
+    border-radius: 50%;
+    width: 5vh;
+    padding: 10px;  
 }
